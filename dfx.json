@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "canisters": {
+    "dulcestradicionales_backend": {
+      "type": "motoko",
+      "main": "src/dulcestradicionales_backend/main.mo"
+    },
+    "dulcestradicionales_frontend": {
+      "type": "assets",
+      "source": [
+        "src/dulcestradicionales_frontend/assets"
+      ],
+      "dependencies": [
+        "dulcestradicionales_backend"
+      ]
+    }
+  },
+  "defaults": {
+    "build": {
+      "packtool": "",
+      "args": ""
+    }
+  },
+  "output_env_file": ".env"
+}
