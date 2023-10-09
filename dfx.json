@@ -1,16 +1,16 @@
 {
-  "version": 1,
   "canisters": {
     "dulcestradicionales_backend": {
-      "type": "motoko",
-      "main": "src/dulcestradicionales_backend/main.mo"
+      "main": "src/dulcestradicionales_backend/main.mo",
+      "type": "motoko"
     }
   },
   "defaults": {
     "build": {
-      "packtool": "",
-      "args": ""
+      "args": "",
+      "packtool": ""
     }
   },
-  "output_env_file": ".env"
+  "output_env_file": ".env",
+  "version": 1
 }
